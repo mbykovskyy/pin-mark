@@ -1,6 +1,6 @@
 {
   "name": "static-pin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A static pin with an origin set to the end of its tip.",
   "homepage": "https://github.com/mbykovskyy/static-pin",
   "author": "Maksym Bykovskyy",
