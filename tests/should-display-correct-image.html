@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>Should Display Correct Image</title>
+  <script src="../../platform/platform.js"></script>
+  <link rel="import" href="../../polymer-test-tools/tools.html">
+  <script src="../../polymer-test-tools/htmltest.js"></script>
+  <link rel="import" href="../static-pin.html">
+</head>
+<body>
+  <static-pin></static-pin>
+
+  <script>
+    document.addEventListener('polymer-ready', function() {
+      var pin = document.querySelector('static-pin');
+      var img = pin.shadowRoot.querySelector('img');
+      assert.equal(img.src, 'https://mts.googleapis.com/vt/icon/name=icons/spotlight/spotlight-poi.png');
+      done();
+    });
+  </script>
+</body>
+</html>

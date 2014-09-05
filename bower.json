@@ -1,0 +1,26 @@
+{
+  "name": "static-pin",
+  "version": "0.0.0",
+  "description": "A static pin with an origin set to the end of its tip.",
+  "homepage": "https://github.com/mbykovskyy/static-pin",
+  "author": "Maksym Bykovskyy",
+  "license": "MIT",
+  "main": "static-pin.html",
+  "keywords": [
+    "static-pin",
+    "web-component",
+    "web-components",
+    "polymer",
+    "pin"
+  ],
+  "ignore": [
+    "**/.*",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.4.0"
+  },
+  "devDependencies": {
+    "polymer-test-tools": "Polymer/polymer-test-tools#~0.4.0"
+  }
+}

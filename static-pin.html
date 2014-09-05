@@ -1,0 +1,28 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+A static pin with an origin at the end of its tip.
+
+Example:
+
+    <div id="map">
+        <static-pin></static-pin>
+    </div>
+
+@element static-pin
+@blurb A static pin with an origin at the end of its tip
+@homepage http://mbykovskyy.github.io/static-pin
+@demo http://mbykovskyy.github.io/static-pin/demo.html
+-->
+<polymer-element name="static-pin" noscript>
+  <template>
+    <style>
+      img {
+        position: absolute;
+        margin-top: -40px;
+        margin-left: -11px;
+      }
+    </style>
+    <img src="https://mts.googleapis.com/vt/icon/name=icons/spotlight/spotlight-poi.png"/>
+  </template>
+</polymer-element>
