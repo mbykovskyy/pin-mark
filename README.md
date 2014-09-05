@@ -15,4 +15,7 @@ bower install --save mbykovskyy/static-pin
 <static-pin></static-pin>
 ```
 
+See [component page][static-pin] for details and demo.
+
 [polymer]: http://polymer-project.org "Polymer"
+[static-pin]: http://mbykovskyy.github.io/static-pin "Component Page"
