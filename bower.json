@@ -1,6 +1,6 @@
 {
   "name": "pin-mark",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A static pin mark with an origin set to the end of its tip.",
   "homepage": "https://github.com/mbykovskyy/pin-mark",
   "author": "Maksym Bykovskyy",
