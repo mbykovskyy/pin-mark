@@ -1,13 +1,13 @@
 {
-  "name": "static-pin",
+  "name": "pin-mark",
   "version": "0.0.2",
-  "description": "A static pin with an origin set to the end of its tip.",
-  "homepage": "https://github.com/mbykovskyy/static-pin",
+  "description": "A static pin mark with an origin set to the end of its tip.",
+  "homepage": "https://github.com/mbykovskyy/pin-mark",
   "author": "Maksym Bykovskyy",
   "license": "MIT",
-  "main": "static-pin.html",
+  "main": "pin-mark.html",
   "keywords": [
-    "static-pin",
+    "pin-mark",
     "web-component",
     "web-components",
     "polymer",

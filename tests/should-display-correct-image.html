@@ -6,14 +6,14 @@
   <script src="../../platform/platform.js"></script>
   <link rel="import" href="../../polymer-test-tools/tools.html">
   <script src="../../polymer-test-tools/htmltest.js"></script>
-  <link rel="import" href="../static-pin.html">
+  <link rel="import" href="../pin-mark.html">
 </head>
 <body>
-  <static-pin></static-pin>
+  <pin-mark></pin-mark>
 
   <script>
     document.addEventListener('polymer-ready', function() {
-      var pin = document.querySelector('static-pin');
+      var pin = document.querySelector('pin-mark');
       var img = pin.shadowRoot.querySelector('img');
       assert.equal(img.src, 'https://mts.googleapis.com/vt/icon/name=icons/spotlight/spotlight-poi.png');
       done();

@@ -1,21 +1,21 @@
-# static-pin
-[Polymer][polymer] web component pin with an origin at the end of its tip.
+# pin-mark
+[Polymer][polymer] web component pin mark with an origin at the end of its tip.
 
 ## Install
 
 ```bash
-bower install --save mbykovskyy/static-pin
+bower install --save mbykovskyy/pin-mark
 ```
 
 ## Usage
 
 ```html
-<link rel="import" href="static-pin.html">
+<link rel="import" href="pin-mark.html">
 
-<static-pin></static-pin>
+<pin-mark></pin-mark>
 ```
 
-See [component page][static-pin] for details and demo.
+See [component page][pin-mark] for details and demo.
 
 [polymer]: http://polymer-project.org "Polymer"
-[static-pin]: http://mbykovskyy.github.io/static-pin "Component Page"
+[pin-mark]: http://mbykovskyy.github.io/pin-mark "Component Page"
