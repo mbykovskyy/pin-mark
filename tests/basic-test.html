@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../web-component-tester/browser.js"></script>
+    <link rel="import" href="../pin-mark.html">
+  </head>
+  <body>
+    <pin-mark id="pin"></pin-mark>
+
+    <script>
+      var pin = document.getElementById('pin');
+
+      suite('pin-mark', function() {
+
+        test('has correct name', function() {
+          assert.equal(pin.is, 'pin-mark');
+        });
+
+        test('should display correct image', function() {
+          var img = pin.root.host.querySelector('img');
+          assert.equal(img.src, 'https://mts.googleapis.com/vt/icon/name=icons/spotlight/spotlight-poi.png');
+        });
+      });
+    </script>
+
+  </body>
+</html>

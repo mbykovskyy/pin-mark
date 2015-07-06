@@ -3,25 +3,31 @@
 <!--
 A static pin mark with an origin at the end of its tip.
 
-Example:
-
     <div id="map">
         <pin-mark></pin-mark>
     </div>
 
+@group MBykovskyy Elements
 @element pin-mark
 @blurb A static pin mark with an origin at the end of its tip
 @homepage http://mbykovskyy.github.io/pin-mark
-@demo http://mbykovskyy.github.io/pin-mark/demo.html
+@demo demo/index.html
 -->
-<polymer-element name="pin-mark" noscript>
+<dom-module id="pin-mark">
+  <style>
+    :host {
+      display: inline-block;
+      margin: -40px -11px 0px -11px;
+    }
+  </style>
+
   <template>
-    <style>
-      :host {
-        display: inline-block;
-        margin: -40px -11px 0px -11px;
-      }
-    </style>
     <img src="https://mts.googleapis.com/vt/icon/name=icons/spotlight/spotlight-poi.png"/>
   </template>
-</polymer-element>
+</dom-module>
+
+<script>
+  Polymer({
+    is: 'pin-mark'
+  });
+</script>
