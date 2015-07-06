@@ -1,0 +1,33 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+A static pin mark with an origin at the end of its tip.
+
+    <div id="map">
+        <pin-mark></pin-mark>
+    </div>
+
+@group MBykovskyy Elements
+@element pin-mark
+@blurb A static pin mark with an origin at the end of its tip
+@homepage http://mbykovskyy.github.io/pin-mark
+@demo demo/index.html
+-->
+<dom-module id="pin-mark">
+  <style>
+    :host {
+      display: inline-block;
+      margin: -40px -11px 0px -11px;
+    }
+  </style>
+
+  <template>
+    <img src="https://mts.googleapis.com/vt/icon/name=icons/spotlight/spotlight-poi.png"/>
+  </template>
+</dom-module>
+
+<script>
+  Polymer({
+    is: 'pin-mark'
+  });
+</script>
